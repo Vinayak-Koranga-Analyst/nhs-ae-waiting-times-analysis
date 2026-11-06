@@ -2,7 +2,7 @@
 
 **Data:** NHS England, A&E Attendances and Emergency Admissions, April 2024 – September 2026
 **Author:** Vinayak Koranga. Independent analysis of public data; not NHS guidance.
-**Supporting work:** [analysis notebook](../notebooks/analysis.ipynb), [SQL results](../outputs/sql_results.md), [dashboard](../dashboard/index.html), [data dictionary](data-dictionary.md)
+**Supporting work:** [analysis notebook](../notebooks/analysis.ipynb), [SQL results](../outputs/sql_results.md), [live dashboard](https://vinayak-koranga-analyst.github.io/nhs-ae-waiting-times-analysis/dashboard/), [data dictionary](data-dictionary.md)
 
 ---
 

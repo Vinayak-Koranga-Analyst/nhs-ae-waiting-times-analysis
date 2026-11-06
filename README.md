@@ -22,7 +22,7 @@ This project asks:
 | [Data dictionary](docs/data-dictionary.md) | Done |
 | [SQL analysis queries](sql/) and [results](outputs/sql_results.md) | Done |
 | [Python analysis and charts](notebooks/analysis.ipynb) | Done |
-| [Interactive dashboard](dashboard/index.html) | Done |
+| [Interactive dashboard](https://vinayak-koranga-analyst.github.io/nhs-ae-waiting-times-analysis/dashboard/) ([source](dashboard/index.html)) | Done |
 | [Findings and recommendations](docs/findings-and-recommendations.md) | Done |
 
 ## Key findings
@@ -35,6 +35,8 @@ This project asks:
 4. **Trolley waits explain only part of the gap between trusts** (r = −0.26). Trusts with similar bed pressure range from 38% to 76% on the Type 1 4-hour measure, so department processes matter as much as beds.
 
 Recommendations: [docs/findings-and-recommendations.md](docs/findings-and-recommendations.md).
+
+**[Open the live dashboard](https://vinayak-koranga-analyst.github.io/nhs-ae-waiting-times-analysis/dashboard/)**
 
 ## Data
 
@@ -54,7 +56,7 @@ python src/build_dashboard.py
 jupyter notebook notebooks/analysis.ipynb
 ```
 
-The dashboard is a single HTML file: download [`dashboard/index.html`](dashboard/index.html) and open it in a browser.
+The dashboard is a single HTML file, published with GitHub Pages at [vinayak-koranga-analyst.github.io/nhs-ae-waiting-times-analysis/dashboard/](https://vinayak-koranga-analyst.github.io/nhs-ae-waiting-times-analysis/dashboard/).
 
 The loader reads the 30 CSVs in `data/raw/`, standardises the column names, checks that each file's organisation rows add up to its published national total, and writes a DuckDB database (`data/ae.duckdb`) for the SQL queries.
 
