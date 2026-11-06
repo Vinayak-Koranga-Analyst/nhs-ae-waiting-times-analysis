@@ -20,7 +20,7 @@ This project asks:
 |---|---|
 | Data sourced, loaded and reconciled | Done |
 | [Data dictionary](docs/data-dictionary.md) | Done |
-| SQL analysis queries | In progress |
+| [SQL analysis queries](sql/) and [results](outputs/sql_results.md) | Done |
 | Python analysis and charts | Next |
 | Dashboard | Next |
 | Findings and recommendation paper | Next |
@@ -38,6 +38,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python src/load_data.py
+python src/run_queries.py
 ```
 
 The loader reads the 30 CSVs in `data/raw/`, standardises the column names, checks that each file's organisation rows add up to its published national total, and writes a DuckDB database (`data/ae.duckdb`) for the SQL queries.
@@ -48,8 +49,10 @@ The loader reads the 30 CSVs in `data/raw/`, standardises the column names, chec
 data/raw/            Monthly CSVs as published by NHS England
 data/sources.txt     Download URLs
 docs/                Data dictionary and (later) findings paper
+outputs/             Query results (CSV and a readable summary)
 sql/                 Analysis queries (DuckDB SQL)
 src/load_data.py     Load, clean and reconcile the data
+src/run_queries.py   Run all queries and write results to outputs/
 ```
 
 ## Tools
