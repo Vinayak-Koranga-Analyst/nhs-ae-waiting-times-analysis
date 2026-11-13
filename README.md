@@ -4,6 +4,8 @@ An analysis of NHS England's published A&E data (April 2024 – September 2026),
 
 > **Real public data.** All figures come from NHS England's monthly A&E Attendances and Emergency Admissions statistics. The analysis and recommendations are my own and are not NHS guidance.
 
+**Case study on my website:** a shorter write-up of this project is at [vinayakkoranga.com](https://vinayakkoranga.com/case-studies/nhs-ae-waiting-times/).
+
 ## The business question
 
 The NHS constitutional standard is for 95% of A&E patients to be admitted, transferred or discharged within 4 hours. The interim target for March 2026 was 78%. Nationally, performance has stayed in the low-to-mid 70s.
@@ -37,6 +39,8 @@ This project asks:
 Recommendations: [docs/findings-and-recommendations.md](docs/findings-and-recommendations.md).
 
 **[Open the live dashboard](https://vinayak-koranga-analyst.github.io/nhs-ae-waiting-times-analysis/dashboard/)**
+
+**Read the write-up:** [What 30 months of NHS A&E data says about the 4-hour target](https://vinayakkoranga.com/nhs-ae-4-hour-target-data/) (blog post on vinayakkoranga.com)
 
 ## Data
 
